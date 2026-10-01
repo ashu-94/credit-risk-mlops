@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+data/*.csv
+models/*.joblib
+reports/*.html
+mlruns/
+mlflow.db
+.venv/
+.pytest_tmp/

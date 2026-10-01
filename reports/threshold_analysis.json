@@ -1,0 +1,10 @@
+{
+  "optimal_threshold": 0.54,
+  "cost_at_optimal": 1748.0,
+  "cost_at_0.5": 1782.0,
+  "savings_vs_0.5": 34.0,
+  "assumptions": {
+    "cost_fn": 5.0,
+    "cost_fp": 1.0
+  }
+}

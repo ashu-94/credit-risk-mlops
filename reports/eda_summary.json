@@ -1,0 +1,10 @@
+{
+  "n_rows": 20000,
+  "n_features": 11,
+  "default_rate": 0.2595,
+  "class_balance": {
+    "repaid": 14810,
+    "defaulted": 5190
+  },
+  "missing_values": 0
+}

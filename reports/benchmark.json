@@ -1,0 +1,36 @@
+{
+  "comparison": [
+    {
+      "model": "Logistic Regression (baseline)",
+      "roc_auc_mean": 0.8637446223545141,
+      "roc_auc_std": 0.009560376636977523,
+      "pr_auc_mean": 0.7560295431811457,
+      "pr_auc_std": 0.016586437509992016
+    },
+    {
+      "model": "Random Forest",
+      "roc_auc_mean": 0.8488689375784224,
+      "roc_auc_std": 0.008361334593993812,
+      "pr_auc_mean": 0.7252883845361312,
+      "pr_auc_std": 0.01695156591194699
+    },
+    {
+      "model": "XGBoost",
+      "roc_auc_mean": 0.8375307992247992,
+      "roc_auc_std": 0.008275563557814848,
+      "pr_auc_mean": 0.7156779265734592,
+      "pr_auc_std": 0.017221443769943737
+    }
+  ],
+  "tuning": {
+    "best_params": {
+      "subsample": 0.9,
+      "n_estimators": 200,
+      "min_child_weight": 5,
+      "max_depth": 5,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.7
+    },
+    "best_cv_roc_auc": 0.854628361999219
+  }
+}
